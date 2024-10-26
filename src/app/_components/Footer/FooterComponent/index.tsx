@@ -41,7 +41,8 @@ const FooterComponent = ({ footer }: { footer: Footer }) => {
         <Gutter>
           <div className={classes.wrap}>
             <Link href="/">
-              <Image src="/logo-white.svg" alt="logo" width={170} height={50} />
+              {/* <Image src="/logo-white.svg" alt="logo" width={170} height={50} /> */}
+              <img src="/Group 1.png" alt="logo" width={170} height={50} alt="" />
             </Link>
 
             <p>{footer?.copyright}</p>
